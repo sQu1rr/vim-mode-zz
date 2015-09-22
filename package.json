@@ -21,7 +21,7 @@
   "activationCommands": {
     "atom-workspace": "vim-mode-zz:saveAndClose"
   },
-  "repository": "https://github.com/atom/vim-mode-zz",
+  "repository": "https://github.com/sQu1rr/vim-mode-zz",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
