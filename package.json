@@ -1,7 +1,7 @@
 {
   "name": "vim-mode-zz",
   "main": "./lib/vim-mode-zz",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "coffeelintConfig": {
     "indentation": {
       "level": "error",
@@ -14,9 +14,9 @@
   },
   "description": "A short description of your package",
   "keywords": [
-      "vim",
-      "vim-mode",
-      "ZZ"
+    "vim",
+    "vim-mode",
+    "ZZ"
   ],
   "activationCommands": {
     "atom-workspace": "vim-mode-zz:saveAndClose"
@@ -26,8 +26,7 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "consumedServices": {
     "vim-mode": {
       "versions": {
