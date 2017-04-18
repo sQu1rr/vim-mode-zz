@@ -1,7 +1,7 @@
 {
   "name": "vim-mode-zz",
   "main": "./lib/vim-mode-zz",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "coffeelintConfig": {
     "indentation": {
       "level": "error",
