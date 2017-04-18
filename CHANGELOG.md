@@ -1,3 +1,6 @@
+## 0.1.1 - Vim mode plus support per realh's request
+* Added fim mode plus support
+
 ## 0.1.0 - Initial Release
 * Save and Close Text Editor by hitting ZZ in vim normal mode
 * When last editor is closed the focus is activated on tree view if it exists
