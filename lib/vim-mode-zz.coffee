@@ -15,7 +15,7 @@ module.exports =
 
         if treeView and !atom.workspace.getActivePane().getActiveItem()
             treeView.selectEntry(selected)
-            treeView.show()
+            treeView.focus()
 
     saveAndClose: ->
         editor = atom.workspace.getActiveTextEditor()

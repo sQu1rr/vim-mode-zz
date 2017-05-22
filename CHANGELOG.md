@@ -1,3 +1,6 @@
+## 0.1.3 - Atom 1.17.0 support
+* Focus on tree view after ZZ or ZQ
+
 ## 0.1.2 - Vim mode plus support per realh's request
 * Added fim mode plus support
 
