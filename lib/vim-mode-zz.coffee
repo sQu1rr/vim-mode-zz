@@ -11,7 +11,8 @@ module.exports =
 
         selected = treeView?.selectedEntry()
 
-        atom.workspace.getActivePaneItem()?.destroy()
+        editor = atom.workspace.getActiveTextEditor()
+        editor?.destroy()
 
         if treeView and !atom.workspace.getActivePane().getActiveItem()
             treeView.selectEntry(selected)
@@ -19,5 +20,6 @@ module.exports =
 
     saveAndClose: ->
         editor = atom.workspace.getActiveTextEditor()
-        editor.save() if editor.getPath() and editor.isModified()
-        @close()
+        if editor.getPath() and editor.isModified()
+            editor.save().done(=> @close())
+        else @close(editor)
