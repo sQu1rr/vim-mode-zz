@@ -1,3 +1,6 @@
+## 0.2 - Atom 1.19.0 support
+* Fixed async editor.save() issue. No support for atom <1.19 from now on
+
 ## 0.1.4 - Atom 1.17.0 support
 * Focus on tree view after ZZ or ZQ
 
