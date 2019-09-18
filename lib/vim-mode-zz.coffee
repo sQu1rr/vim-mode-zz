@@ -21,5 +21,5 @@ module.exports =
     saveAndClose: ->
         editor = atom.workspace.getActiveTextEditor()
         if editor.getPath() and editor.isModified()
-            editor.save().done(=> @close())
+            editor.save().then(=> @close())
         else @close(editor)
